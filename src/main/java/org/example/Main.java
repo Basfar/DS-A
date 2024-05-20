@@ -9,9 +9,10 @@ public class Main {
         linkedList.append(3);
         linkedList.append(4);
 
+        System.out.println(linkedList.findKthFromEnd(2).value);
 
 
-        linkedList.insert(1,5);
+       // linkedList.insert(1,5);
 
       //  System.out.println(linkedList.get(1).value);
 
