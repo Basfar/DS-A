@@ -11,7 +11,9 @@ public class Main {
 
 
 
-        System.out.println(linkedList.get(1).value);
+        linkedList.insert(1,5);
+
+      //  System.out.println(linkedList.get(1).value);
 
 
 //        System.out.println(linkedList.removeLast().value);
