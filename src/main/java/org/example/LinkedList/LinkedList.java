@@ -241,6 +241,31 @@ public class LinkedList {
     }
 
 
+    public Node removeElements(Node head, int val) {
+        if (head == null)
+            return head;
+        while (head != null && head.value == val) {
+            head = head.next;
+            if (head == null) {
+                return null;
+            }
+        }
+
+        Node temp = head;
+
+        while (temp.next != null){
+            if(temp.next.value == val){
+                temp.next = temp.next.next;
+            }else{
+                temp = temp.next;
+            }
+
+        }
+
+        return head;
+    }
+
+
 
     public void printList(){
         Node temp = head;
