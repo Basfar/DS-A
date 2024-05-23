@@ -207,6 +207,39 @@ public class LinkedList {
         return slow; // Return the kth node from the end (slow pointer)
     }
 
+    public Node reverse(Node head) {
+        Node prev = null;
+        Node curr = head;
+        while(curr != null) {
+            Node next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+    public boolean isPalindrome(Node head) {
+        Node temp = head;
+        Node pre = head;
+
+        while(temp != null && temp.next != null){
+            pre = pre.next;
+            temp = temp.next.next;
+        }
+
+        pre = reverse(pre);
+        temp = head;
+
+        while(pre != null){
+            if(pre.value != temp.value){return false;}
+            pre = pre.next;
+            temp = temp.next;
+        }
+
+        return true;
+
+    }
+
 
 
     public void printList(){
