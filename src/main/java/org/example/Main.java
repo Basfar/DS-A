@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.LinkedList.LinkedList;
+import org.example.Queues.Queues;
 import org.example.Stacks.Stack;
 
 public class Main {
@@ -31,18 +32,31 @@ public class Main {
 
         //Stacks
 
-        Stack myStack = new Stack(4);
-        myStack.getTop();
-        myStack.getHeight();
+//        Stack myStack = new Stack(4);
+//        myStack.getTop();
+//        myStack.getHeight();
+//
+//        myStack.push(6);
+//        myStack.push(7);
+//        myStack.push(8);
+//
+//        myStack.pop();
+//
+//
+//        myStack.printStack();
 
-        myStack.push(6);
-        myStack.push(7);
-        myStack.push(8);
+        //Queues
 
-        myStack.pop();
+        Queues myQueue = new Queues(6);
+        myQueue.getFirst();
+        myQueue.getLast();
+        myQueue.getLength();
 
+        myQueue.enqueue(5);
+        myQueue.enqueue(7);
+        myQueue.enqueue(8);
 
-        myStack.printStack();
+        myQueue.printQueue();
 
     }
 }
