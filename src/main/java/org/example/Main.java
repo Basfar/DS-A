@@ -10,8 +10,6 @@ public class Main {
 
         //BST
 
-
-
         BinarySearchTrees myTree = new BinarySearchTrees();
 
         myTree.insert(47);
@@ -22,6 +20,10 @@ public class Main {
         myTree.insert(82);
 
         myTree.insert(27);
+
+        System.out.println(myTree.contains(27));
+
+        System.out.println(myTree.contains(17));
 
 
         System.out.println(myTree.root.left.right.value);
