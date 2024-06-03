@@ -13,6 +13,15 @@ public class Main {
         //HashTable
 
         HashTable myHash = new HashTable();
+
+        myHash.set("nails", 100);
+        myHash.set("tile", 50);
+        myHash.set("lumber", 80);
+
+        myHash.set("bolts", 200);
+        myHash.set("screws", 140);
+
+
         myHash.printTable();
 
         //BST
