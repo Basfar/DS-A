@@ -14,17 +14,25 @@ public class Main {
 
         HashTable myHash = new HashTable();
 
+        myHash.set("paints", 20);
+        myHash.set("bolts", 40);
         myHash.set("nails", 100);
         myHash.set("tile", 50);
         myHash.set("lumber", 80);
 
+
+        System.out.println("========");
+
         System.out.println(myHash.get("lumber"));
         System.out.println(myHash.get("bolts"));
 
+        System.out.println("========");
 
+        System.out.println(myHash.keys());
 
+        System.out.println("========");
 
-      //  myHash.printTable();
+        myHash.printTable();
 
         //BST
 

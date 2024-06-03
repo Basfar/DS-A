@@ -2,6 +2,7 @@ package org.example.HashTable;
 
 import org.w3c.dom.Node;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class HashTable {
@@ -59,6 +60,18 @@ public class HashTable {
 
         }
         return 0;
+    }
+
+    public ArrayList keys(){
+        ArrayList<String> list = new ArrayList<>();
+        for(int i = 0; i < dataMap.length; i++){
+            Node temp = dataMap[i];
+            while (temp != null){
+                list.add(temp.key);
+                temp = temp.next;
+            }
+        }
+        return list;
     }
 
 
