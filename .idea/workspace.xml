@@ -65,7 +65,7 @@
       <workItem from="1716003932797" duration="3518000" />
       <workItem from="1716248989999" duration="44795000" />
       <workItem from="1716965938418" duration="1673000" />
-      <workItem from="1717349884326" duration="3116000" />
+      <workItem from="1717349884326" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <option name="closed" value="true" />
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717399466533</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="leetcoding">
+      <option name="closed" value="true" />
+      <created>1717402073976</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1717402073976</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

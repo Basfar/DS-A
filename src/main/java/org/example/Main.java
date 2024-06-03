@@ -18,11 +18,13 @@ public class Main {
         myHash.set("tile", 50);
         myHash.set("lumber", 80);
 
-        myHash.set("bolts", 200);
-        myHash.set("screws", 140);
+        System.out.println(myHash.get("lumber"));
+        System.out.println(myHash.get("bolts"));
 
 
-        myHash.printTable();
+
+
+      //  myHash.printTable();
 
         //BST
 
