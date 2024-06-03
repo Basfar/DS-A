@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.HashTable.HashTable;
 import org.example.LinkedList.LinkedList;
 import org.example.Queues.Queues;
 import org.example.Stacks.Stack;
@@ -8,25 +9,31 @@ import org.example.Trees.BinarySearchTrees;
 public class Main {
     public static void main(String[] args) {
 
+
+        //HashTable
+
+        HashTable myHash = new HashTable();
+        myHash.printTable();
+
         //BST
 
-        BinarySearchTrees myTree = new BinarySearchTrees();
-
-        myTree.insert(47);
-        myTree.insert(21);
-        myTree.insert(76);
-        myTree.insert(18);
-        myTree.insert(52);
-        myTree.insert(82);
-
-        myTree.insert(27);
-
-        System.out.println(myTree.contains(27));
-
-        System.out.println(myTree.contains(17));
-
-
-        System.out.println(myTree.root.left.right.value);
+//        BinarySearchTrees myTree = new BinarySearchTrees();
+//
+//        myTree.insert(47);
+//        myTree.insert(21);
+//        myTree.insert(76);
+//        myTree.insert(18);
+//        myTree.insert(52);
+//        myTree.insert(82);
+//
+//        myTree.insert(27);
+//
+//        System.out.println(myTree.contains(27));
+//
+//        System.out.println(myTree.contains(17));
+//
+//
+//        System.out.println(myTree.root.left.right.value);
 
 
 
