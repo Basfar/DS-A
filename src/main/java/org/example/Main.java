@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.Arrays.Arrays;
+import org.example.Graphs.Graph;
 import org.example.HashTable.HashTable;
 import org.example.LinkedList.LinkedList;
 import org.example.Queues.Queues;
@@ -11,12 +12,19 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //Arrays
+        //Graph
 
-        int[] arr = {4,2,5,7,1,6};
-        Arrays myArray = new Arrays();
-        System.out.println(myArray.findMinimum(arr));
-        System.out.println(myArray.findMaximum(arr));
+        Graph myGraph = new Graph();
+        myGraph.addVertex("A");
+        myGraph.printGraph();
+
+
+//        //Arrays
+//
+//        int[] arr = {4,2,5,7,1,6};
+//        Arrays myArray = new Arrays();
+//        System.out.println(myArray.findMinimum(arr));
+//        System.out.println(myArray.findMaximum(arr));
 
 
 //        //HashTable
