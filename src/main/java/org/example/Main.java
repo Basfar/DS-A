@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.Arrays.Arrays;
 import org.example.HashTable.HashTable;
 import org.example.LinkedList.LinkedList;
 import org.example.Queues.Queues;
@@ -10,29 +11,37 @@ public class Main {
     public static void main(String[] args) {
 
 
-        //HashTable
+        //Arrays
 
-        HashTable myHash = new HashTable();
-
-        myHash.set("paints", 20);
-        myHash.set("bolts", 40);
-        myHash.set("nails", 100);
-        myHash.set("tile", 50);
-        myHash.set("lumber", 80);
+        int[] arr = {4,2,5,7,1,6};
+        Arrays myArray = new Arrays();
+        System.out.println(myArray.findMinimum(arr));
+        System.out.println(myArray.findMaximum(arr));
 
 
-        System.out.println("========");
-
-        System.out.println(myHash.get("lumber"));
-        System.out.println(myHash.get("bolts"));
-
-        System.out.println("========");
-
-        System.out.println(myHash.keys());
-
-        System.out.println("========");
-
-        myHash.printTable();
+//        //HashTable
+//
+//        HashTable myHash = new HashTable();
+//
+//        myHash.set("paints", 20);
+//        myHash.set("bolts", 40);
+//        myHash.set("nails", 100);
+//        myHash.set("tile", 50);
+//        myHash.set("lumber", 80);
+//
+//
+//        System.out.println("========");
+//
+//        System.out.println(myHash.get("lumber"));
+//        System.out.println(myHash.get("bolts"));
+//
+//        System.out.println("========");
+//
+//        System.out.println(myHash.keys());
+//
+//        System.out.println("========");
+//
+//        myHash.printTable();
 
         //BST
 
